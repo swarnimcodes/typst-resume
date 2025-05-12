@@ -40,7 +40,7 @@
 
 
 // idk what this does
-#set par(justify: true)
+// #set par(justify: true)
 
 
 #let generic-two-by-two(
@@ -92,101 +92,108 @@
   bottom-right: dates-helper(start-date: "Aug, 2024", end-date: "Present"),
   bottom-left: emph("FullStack Software Engineer, AI Department"),
 )
-- Fullstack Engineer responsible for the design and development of mission-critical software for the Indian Navy.
+- Responsible for the software architectural design and full-stack development of mission-critical software for the #strong("Indian Navy") and the #strong("German Federal Police").
 - Drive technical decision-making and architecture planning towards making the software efficient, robust & maintainable.
-- Optimize performance and ensure reliability.
+- Identify performance bottlenecks & carry out code optimization.
 - Mentor & train junior developers and conduct code reviews to maintain quality and correctness.
 - Implement standard development practices to bring in uniformity and long term maintainability of projects.
 
 
 
 // 2. mastersoft erp
-
 #generic-two-by-two(
   top-left: strong("MasterSoft ERP Solutions"),
   top-right: "Nagpur, Maharashtra",
   bottom-right: dates-helper(start-date: "Aug, 2023", end-date: "June, 2024"),
   bottom-left: emph("Software Engineering Intern, R&D Department"),
 )
-- Designed system architecture and developed a high-traffic product, as part of a small R&D team.
-- Built asynchronous and scalable backend systems with FastAPI.
-- Researched and developed backend systems in Golang to assess advantages & feasibility.
-- Engineered automation tools for database and development teams, significantly reducing operational overhead.
-- Enhanced system reliability through proactive Linux server maintenance and critical issue resolution.
+- Design system architecture and develop high-traffic products, as part of a small R&D team.
+- Achieved savings of Rs 53 Lakhs annually.
+- Develop internal toolchains for developers inside the organisation resulting in time savings of upto 14 days.
+- Ensure system reliability and maximum uptime through Linux server maintenance and critical issue resolution.
 
 == Skills
-- #strong("Programming Languages"): TypeScript, JavaScript, Python, Golang, SQL, Powershell, Pascal
+- #strong("Programming Languages"): #link("https://www.typescriptlang.org/")[TypeScript], #link("https://developer.mozilla.org/en-US/docs/Web/JavaScript")[JavaScript], #link("https://www.python.org/")[Python], #link("https://go.dev/")[Golang], #link("https://en.wikipedia.org/wiki/SQL")[SQL], #link("https://wiki.archlinux.org/title/Bash")[Bash], #link("https://learn.microsoft.com/en-us/powershell/")[Powershell], #link("https://en.wikipedia.org/wiki/Pascal_(programming_language)")[Pascal]
 - #strong("Frameworks"): #link("https://react.dev/")[React], #link("https://adonisjs.com/")[AdonisJS], #link("https://expressjs.com/")[ExpessJS], #link("https://flask.palletsprojects.com/en/stable/")[Flask], #link("https://fastapi.tiangolo.com/")[FastAPI], #link("https://gofiber.io/")[Fiber]
-- #strong("Databases"): PostgreSQL, SQLite, SQL Server, MongoDB
-- #strong("Tools"): Vim, Emacs, Linux
-- #strong("Other Technologies"): OAuth, WebSockets, Git, Nginx, LaTeX, Typst, Lucid ORM
-
+- #strong("Databases"): #link("https://www.postgresql.org/")[PostgreSQL], #link("https://www.sqlite.org/")[SQLite], #link("https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16")[Microsoft SQL Server], #link("https://www.mongodb.com/")[MongoDB]
+- #strong("Tools"): #link("https://neovim.io/")[Vim], #link("https://www.gnu.org/software/emacs/")[Emacs], #link("https://github.com/torvalds/linux")[Linux]
+- #strong("Other Technologies"): #link("https://aws.amazon.com/ec2/")[AWS EC2], #link("https://oauth.net/2/")[OAuth], #link("https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API")[WebSockets], #link("https://git-scm.com/")[Git], #link("https://nginx.org/")[Nginx], #link("https://www.latex-project.org/")[LaTeX], #link("https://typst.app/")[Typst], #link("https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping")[ORM], #link("https://docs.gitlab.com/api/rest/")[GitLab API]
 
 == Projects
 
 #generic-one-by-two(
-  left: strong(
-    "ISACA"
-      + " "
-      + $dash.em$
-      + " "
-      + "Intelligent Situational Awareness & Collision Avoidance Ship",
-  ),
+  left: link("https://github.com/AccurateIC/IsacaFrontend/")[#strong(
+      "ISACA"
+        + " "
+        + $dash.em$
+        + " "
+        + "Intelligent Situational Awareness & Collision Avoidance Ship",
+    )],
   right: dates-helper(start-date: "Oct, 2024", end-date: "Present"),
 )
-- Co-developed the ISACA application that runs on the autonomous boat developed for the Indian Navy.
+- Co-developed the ISACA application that runs the autonomous ship developed for the Indian Navy.
 - The application includes features such as: radar overlay, obstacle & future trajectory visualization, planning routes on the world map, controlling sensor functionality (gps, radar, camera, etc), viewing camera feeds.
 - Achieved 40% reduction in CPU consumption by refactoring inefficiencies.
 - Proposed and implemented synchronized communication solution
   between the Ship and the Control Base.
-- Developed using a tried and tested tech stack of ExpressJS, ReactJS, Tailwind, Vite and PostgreSQL.
-
-
-
-#generic-one-by-two(left: strong("NeuroGen"), right: dates-helper(
-  start-date: "Dec, 2024",
-  end-date: "Present",
-))
-- Designed the system architecture and database structure.
-- Led the development of the web application from scratch.
-- The application is a real-time IOT platform to visualise IOT devices, specifically generators.
-- This application runs along with machine learning models in order to predict potential failures and provides alerts and recommendations.
-- Sucessfully utilised a new tech stack that included AdonisJS as the backend framework along with in-built libraries for testing, validation, ORM, and authentication.
-
+- Developed using a tried and tested tech stack of #emph("ExpressJS, ReactJS, Tailwind, Vite and PostgreSQL").
 
 
 
 #generic-one-by-two(
-  left: strong("Employee Performance System"),
+  left: link("https://github.com/AccurateIC/Voltaic/")[#strong(
+      "NeuroGen"
+        + " "
+        + $dash.em$
+        + " "
+        + "Smart Monitoring & Alert Systems for GenSets",
+    )],
+  right: dates-helper(start-date: "Dec, 2024", end-date: "Present"),
+)
+- Designed the system architecture and database structure.
+- Features include: Predictive Maintenance, Multi-variate Anomaly Detection, Life Expectancy Simulations, Data Analysis & Visualizations.
+- This application runs along with machine learning models in order to predict potential failures and provides alerts and recommendations.
+- Led the development of the web application from scratch using a modern tech stack using #emph("AdonisJS, Lucid ORM, ReactJS, Tanstack Query, and Tailwind CSS").
+
+
+#generic-one-by-two(
+  left: link("https://github.com/swarnimcodes/employee-performance")[#strong(
+      "Panopticon"
+        + " "
+        + $dash.em$
+        + " "
+        + "Employee Performance Measurement System",
+    )],
   right: dates-helper(start-date: "Oct, 2023", end-date: "June, 2024"),
 )
-- Designed and developed a multi-tenant application for streamlined employee productivity tracking.
-- Reduced annual costs by Rs 53 Lakhs by eliminating reliance on external services.
+- Designed and developed a multi-tenant application for streamlined employee productivity measurement.
+- Reduced annual costs by Rs 53 Lakhs by eliminating reliance on external services (#link("https://desktime.com/")[DeskTime]).
 - Facilitated confident remote talent recruitment through accurate productivity metrics.
 - Implemented features such as interventionless atomic app updates, a live-updating configuration system, and encrypted activity logs.
+- Tech Stack: #emph("Python, Subprocess, Multi-threading, Pascal (Delphi), OpenCV, Powershell, Win32 APIs")
 
 
-
-
-#generic-one-by-two(left: strong("MS-SQL Suite of Tools"), right: dates-helper(
-  start-date: "Oct, 2023",
-  end-date: "June, 2024",
-))
+#generic-one-by-two(
+  left: link("https://github.com/swarnimcodes/Sequel")[#strong(
+      "MS-SQL Suite of Tools",
+    )],
+  right: dates-helper(start-date: "Oct, 2023", end-date: "June, 2024"),
+)
 - Crafted a suite of tools for the Microsoft SQL Server meant for internal use by database developers, achieveing 85% time reduction in SQL task flows.
 - Developed a tool to optimize memory consumption by identifying memory leaks in the database, preventing database server crashes.
-- Developed tools to compare and contrast database stored procedures and SQL functions, visualizing differences via automated reports and generating alter scripts to synchronize databases.
+- Developed tools to compare and contrast database stored procedures and SQL functions, visualizing differences (side-by-side diff comprison) via automated reports and generating alter scripts to synchronize databases.
+- Tech Stack: #emph("Python, difflib, sqlparse, pyodbc")
 
 
-
-
-
-#generic-one-by-two(left: strong("MS-SQL Suite of Tools"), right: dates-helper(
-  start-date: "Oct, 2023",
-  end-date: "June, 2024",
-))
+#generic-one-by-two(
+  left: link("https://github.com/swarnimcodes/kafkaesqueue")[#strong(
+      "Kafkaesqueue" + " " + $dash.em$ + " " + "Persistent Queuing System",
+    )],
+  right: dates-helper(start-date: "Oct, 2023", end-date: "June, 2024"),
+)
 - Developed a resilient queue system to automate time-intensive tasks, ensuring FIFO completion and allowing for remote task addition.
-- Implemented persistence as well as optional parallel queue processing.
-
+- Implemented persistence as well as optional parallel queue processing when FIFO completion is unimportant, resulting in upto 10x processing speed.
+- Tech Stack: #emph("Python, FastAPI, Pydantic")
 
 == Extra Curriculars
 #strong("Swimming"): National Swimmer. Multiple times State Gold Medalist.
