@@ -1,7 +1,6 @@
 # typst-resume
 resume using typst
 
-```markdown
 # Professional Resume Template in Typst
 
 A clean, modern, and professional resume template built with [Typst](https://typst.app/) - a modern markup-based typesetting system. This template is designed for software engineers and technical professionals but can be easily adapted for other fields.
