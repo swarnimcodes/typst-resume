@@ -25,7 +25,7 @@
   #pad([#smallcaps(it.body)])
 ]
 
-= Swarnim Barapatre
+= #link("https://smarniw.com")[Swarnim Barapatre]
 
 // personal info
 #pad(top: 0.25em, align(center)[
@@ -71,6 +71,13 @@
   start-date + " " + $dash.em$ + " " + end-date
 }
 
+== Professional Summary
+Full-Stack Software Engineer with experience
+in developing mission-critical software for
+defense and enterprise organizations.
+Proven track record in designing systems and developing
+full-stack applications from scratch, regardless
+of the technology stack.
 
 == Education
 #generic-two-by-two(
@@ -92,12 +99,19 @@
   bottom-right: dates-helper(start-date: "Aug, 2024", end-date: "Present"),
   bottom-left: emph("FullStack Software Engineer, AI Department"),
 )
-- Responsible for the software architectural design and full-stack development of mission-critical software for the #strong("Indian Navy") and the #strong("German Federal Police").
-- Drive technical decision-making and architecture planning towards making the software efficient, robust & maintainable.
-- Identify performance bottlenecks & carry out code optimization.
-- Mentor & train junior developers and conduct code reviews to maintain quality and correctness.
-- Implement standard development practices to bring in uniformity and long term maintainability of projects.
-
+- Developed full-stack application
+  for AI-powered naval autonomous collision avoidance systems,
+  handling real-time radar, camera & sensor data stream
+  processing for 10+ vessels.
+- Architected, developed and led the development of building
+  a platform for IOT-enabled systems (especially engines), smoothening
+  the behavioural analysis of such systems,
+  predicting failures and optimizing the systems
+  for longevity using Artificial Intelligence.
+- Drove technical decision-making and architecture planning towards making the software efficient, robust & maintainable.
+- Identified performance bottlenecks & carried out code optimization.
+- Mentored & trained junior developers and conducted code reviews of pull requests to maintain quality and correctness.
+- Implemented standard development practices to bring in uniformity and long term maintainability of projects.
 
 
 // 2. mastersoft erp
@@ -107,17 +121,54 @@
   bottom-right: dates-helper(start-date: "Aug, 2023", end-date: "June, 2024"),
   bottom-left: emph("Software Engineering Intern, R&D Department"),
 )
-- Design system architecture and develop high-traffic products, as part of a small R&D team.
-- Achieved savings of Rs 53 Lakhs annually.
-- Develop internal toolchains for developers inside the organisation resulting in time savings of upto 14 days.
-- Ensure system reliability and maximum uptime through Linux server maintenance and critical issue resolution.
+- Architected and developed products serving 700+ concurrent users as part of a core R&D team, ensuring optimal performance under high-load conditions.
+- Developed Panopticon resulting in annual savings of Rs 53 Lakhs by eliminating dependency on third-party services and implementing in-house productivity measurement systems.
+- Built comprehensive internal developer toolchains and automation frameworks, reducing development cycle times by up to 14 days and improving overall team productivity across multiple projects.
+- Maintained critical Linux server infrastructure, implemented proactive monitoring solutions, and resolved production incidents to ensure system uptime and reliability.
 
 == Skills
-- #strong("Programming Languages"): #link("https://www.typescriptlang.org/")[TypeScript], #link("https://developer.mozilla.org/en-US/docs/Web/JavaScript")[JavaScript], #link("https://www.python.org/")[Python], #link("https://go.dev/")[Golang], #link("https://en.wikipedia.org/wiki/SQL")[SQL], #link("https://wiki.archlinux.org/title/Bash")[Bash], #link("https://learn.microsoft.com/en-us/powershell/")[Powershell], #link("https://en.wikipedia.org/wiki/Pascal_(programming_language)")[Pascal]
-- #strong("Frameworks"): #link("https://react.dev/")[React], #link("https://adonisjs.com/")[AdonisJS], #link("https://expressjs.com/")[ExpessJS], #link("https://flask.palletsprojects.com/en/stable/")[Flask], #link("https://fastapi.tiangolo.com/")[FastAPI], #link("https://gofiber.io/")[Fiber]
-- #strong("Databases"): #link("https://www.postgresql.org/")[PostgreSQL], #link("https://www.sqlite.org/")[SQLite], #link("https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16")[Microsoft SQL Server], #link("https://www.mongodb.com/")[MongoDB]
-- #strong("Tools"): #link("https://neovim.io/")[Vim], #link("https://www.gnu.org/software/emacs/")[Emacs], #link("https://github.com/torvalds/linux")[Linux]
-- #strong("Other Technologies"): #link("https://aws.amazon.com/ec2/")[AWS EC2], #link("https://oauth.net/2/")[OAuth], #link("https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API")[WebSockets], #link("https://git-scm.com/")[Git], #link("https://nginx.org/")[Nginx], #link("https://www.latex-project.org/")[LaTeX], #link("https://typst.app/")[Typst], #link("https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping")[ORM], #link("https://docs.gitlab.com/api/rest/")[GitLab API]
+- #strong("Languages"):
+          #link("https://www.typescriptlang.org/")[TypeScript],
+          #link("https://developer.mozilla.org/en-US/docs/Web/JavaScript")[JavaScript],
+          #link("https://www.python.org/")[Python],
+          #link("https://go.dev/")[Go],
+          #link("https://en.wikipedia.org/wiki/SQL")[SQL],
+          #link("https://wiki.archlinux.org/title/Bash")[Bash],
+          #link("https://learn.microsoft.com/en-us/powershell/")[Powershell],
+          #link("https://en.wikipedia.org/wiki/Pascal_(programming_language)")[Pascal]
+- #strong("Frontend"):
+          #link("https://react.dev/")[React],
+          #link("Tanstack Query")[Tanstack Query],
+          HTML, CSS,
+          #link("https://tailwindcss.com/")[TailwindCSS]
+- #strong("Backend"):
+          #link("https://adonisjs.com/")[AdonisJS MVC],
+          #link("https://expressjs.com/")[ExpressJS],
+          #link("https://nodejs.org/en")[NodeJS],
+          #link("https://oauth.net/2/")[OAuth],
+          #link("https://www.rabbitmq.com/")[RabbitMQ],
+          #link("https://lucid.adonisjs.com/docs/introduction")[Lucid ORM],
+          #link("https://flask.palletsprojects.com/en/stable/")[Flask],
+          #link("https://fastapi.tiangolo.com/")[FastAPI],
+          #link("https://gofiber.io/")[Fiber],
+          #link("https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API")[WebSockets],
+          #link("https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events")[Server-Sent Events]
+- #strong("Databases"):
+          #link("https://www.postgresql.org/")[PostgreSQL],
+          #link("https://www.sqlite.org/")[SQLite],
+          #link("https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16")[Microsoft SQL Server],
+          #link("https://www.mongodb.com/")[MongoDB]
+- #strong("Cloud/DevOps"):
+          #link("https://aws.amazon.com/ec2/")[AWS EC2],
+          #link("https://nginx.org/")[Nginx],
+          #link("https://github.com/torvalds/linux")[Linux]
+- #strong("Other"):
+          #link("https://www.gnu.org/software/emacs/")[Emacs],
+          #link("https://neovim.io/")[Vim],
+          #link("https://git-scm.com/")[Git],
+          #link("https://www.latex-project.org/")[LaTeX],
+          #link("https://typst.app/")[Typst],
+          #link("https://docs.gitlab.com/api/rest/")[GitLab API]
 
 == Projects
 
@@ -155,7 +206,6 @@
 - This application runs along with machine learning models in order to predict potential failures and provides alerts and recommendations.
 - Led the development of the web application from scratch using a modern tech stack using #emph("AdonisJS, Lucid ORM, ReactJS, Tanstack Query, and Tailwind CSS").
 
-
 #generic-one-by-two(
   left: link("https://github.com/swarnimcodes/employee-performance")[#strong(
       "Panopticon"
@@ -179,7 +229,7 @@
     )],
   right: dates-helper(start-date: "Oct, 2023", end-date: "June, 2024"),
 )
-- Crafted a suite of tools for the Microsoft SQL Server meant for internal use by database developers, achieveing 85% time reduction in SQL task flows.
+- Crafted a suite of tools for the Microsoft SQL Server meant for internal use by database developers, achieving 85% time reduction in SQL task flows.
 - Developed a tool to optimize memory consumption by identifying memory leaks in the database, preventing database server crashes.
 - Developed tools to compare and contrast database stored procedures and SQL functions, visualizing differences (side-by-side diff comprison) via automated reports and generating alter scripts to synchronize databases.
 - Tech Stack: #emph("Python, difflib, sqlparse, pyodbc")
@@ -187,13 +237,26 @@
 
 #generic-one-by-two(
   left: link("https://github.com/swarnimcodes/kafkaesqueue")[#strong(
-      "Kafkaesqueue" + " " + $dash.em$ + " " + "Persistent Queuing System",
+      "Kafkaesqueue" + " " + $dash.em$ + " " + "Persistent Queue Management System",
     )],
   right: dates-helper(start-date: "Oct, 2023", end-date: "June, 2024"),
 )
-- Developed a resilient queue system to automate time-intensive tasks, ensuring FIFO completion and allowing for remote task addition.
-- Implemented persistence as well as optional parallel queue processing when FIFO completion is unimportant, resulting in upto 10x processing speed.
+- Built a reliable queue system to streamline automation of time-intensive tasks, providing FIFO processing guarantees and remote task submission capabilities.
+- Designed with persistence mechanisms to prevent data loss and configurable parallel processing modes, achieving significant performance improvements when order-independent processing is suitable.
+- Addressed common challenges in task management workflows by providing a lightweight alternative to enterprise messaging systems for smaller-scale applications.
 - Tech Stack: #emph("Python, FastAPI, Pydantic")
+
+#generic-one-by-two(
+  left: link("https://github.com/swarnimcodes/openai-gen-co-and-qp")[#strong(
+    "OpenAI Question Paper & Course Outcome Generator",
+  )],
+  right: dates-helper(start-date: "Apr, 2023", end-date: "May, 2024"),
+)
+- Developed an AI-powered tool that automatically generates comprehensive course outcomes from course handouts and syllabi.
+- Implemented question paper generation functionality with automatic classification based on Bloom's Taxonomy levels.
+- Created RESTful API endpoints for seamless integration with existing educational management systems.
+- Reduced manual effort in curriculum planning through automated course outcome generation.
+- Tech Stack: #emph("Python, OpenAI API, FastAPI, Pydantic")
 
 == Extra Curriculars
 #strong("Swimming"): National Swimmer. Multiple times State Gold Medalist.
