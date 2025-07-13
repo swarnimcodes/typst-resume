@@ -128,47 +128,49 @@ of the technology stack.
 
 == Skills
 - #strong("Languages"):
-          #link("https://www.typescriptlang.org/")[TypeScript],
-          #link("https://developer.mozilla.org/en-US/docs/Web/JavaScript")[JavaScript],
-          #link("https://www.python.org/")[Python],
-          #link("https://go.dev/")[Go],
-          #link("https://en.wikipedia.org/wiki/SQL")[SQL],
-          #link("https://wiki.archlinux.org/title/Bash")[Bash],
-          #link("https://learn.microsoft.com/en-us/powershell/")[Powershell],
-          #link("https://en.wikipedia.org/wiki/Pascal_(programming_language)")[Pascal]
+  #link("https://www.typescriptlang.org/")[TypeScript],
+  #link("https://developer.mozilla.org/en-US/docs/Web/JavaScript")[JavaScript],
+  #link("https://www.python.org/")[Python],
+  #link("https://go.dev/")[Go],
+  #link("https://en.wikipedia.org/wiki/SQL")[SQL],
+  #link("https://wiki.archlinux.org/title/Bash")[Bash],
+  #link("https://learn.microsoft.com/en-us/powershell/")[Powershell],
+  #link("https://en.wikipedia.org/wiki/Pascal_(programming_language)")[Pascal]
 - #strong("Frontend"):
-          #link("https://react.dev/")[React],
-          #link("Tanstack Query")[Tanstack Query],
-          HTML, CSS,
-          #link("https://tailwindcss.com/")[TailwindCSS]
+  #link("https://react.dev/")[React],
+  #link("Tanstack Query")[Tanstack Query],
+  HTML, CSS,
+  #link("https://tailwindcss.com/")[TailwindCSS]
 - #strong("Backend"):
-          #link("https://adonisjs.com/")[AdonisJS MVC],
-          #link("https://expressjs.com/")[ExpressJS],
-          #link("https://nodejs.org/en")[NodeJS],
-          #link("https://oauth.net/2/")[OAuth],
-          #link("https://www.rabbitmq.com/")[RabbitMQ],
-          #link("https://lucid.adonisjs.com/docs/introduction")[Lucid ORM],
-          #link("https://flask.palletsprojects.com/en/stable/")[Flask],
-          #link("https://fastapi.tiangolo.com/")[FastAPI],
-          #link("https://gofiber.io/")[Fiber],
-          #link("https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API")[WebSockets],
-          #link("https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events")[Server-Sent Events]
+  #link("https://adonisjs.com/")[AdonisJS MVC],
+  #link("https://expressjs.com/")[ExpressJS],
+  #link("https://nodejs.org/en")[NodeJS],
+  #link("https://oauth.net/2/")[OAuth],
+  #link("https://www.rabbitmq.com/")[RabbitMQ],
+  #link("https://lucid.adonisjs.com/docs/introduction")[Lucid ORM],
+  #link("https://flask.palletsprojects.com/en/stable/")[Flask],
+  #link("https://fastapi.tiangolo.com/")[FastAPI],
+  #link("https://gofiber.io/")[Fiber],
+  #link("https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API")[WebSockets],
+  #link(
+    "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
+  )[Server-Sent Events]
 - #strong("Databases"):
-          #link("https://www.postgresql.org/")[PostgreSQL],
-          #link("https://www.sqlite.org/")[SQLite],
-          #link("https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16")[Microsoft SQL Server],
-          #link("https://www.mongodb.com/")[MongoDB]
+  #link("https://www.postgresql.org/")[PostgreSQL],
+  #link("https://www.sqlite.org/")[SQLite],
+  #link("https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16")[Microsoft SQL Server],
+  #link("https://www.mongodb.com/")[MongoDB]
 - #strong("Cloud/DevOps"):
-          #link("https://aws.amazon.com/ec2/")[AWS EC2],
-          #link("https://nginx.org/")[Nginx],
-          #link("https://github.com/torvalds/linux")[Linux]
+  #link("https://aws.amazon.com/ec2/")[AWS EC2],
+  #link("https://nginx.org/")[Nginx],
+  #link("https://github.com/torvalds/linux")[Linux]
 - #strong("Other"):
-          #link("https://www.gnu.org/software/emacs/")[Emacs],
-          #link("https://neovim.io/")[Vim],
-          #link("https://git-scm.com/")[Git],
-          #link("https://www.latex-project.org/")[LaTeX],
-          #link("https://typst.app/")[Typst],
-          #link("https://docs.gitlab.com/api/rest/")[GitLab API]
+  #link("https://www.gnu.org/software/emacs/")[Emacs],
+  #link("https://neovim.io/")[Vim],
+  #link("https://git-scm.com/")[Git],
+  #link("https://www.latex-project.org/")[LaTeX],
+  #link("https://typst.app/")[Typst],
+  #link("https://docs.gitlab.com/api/rest/")[GitLab API]
 
 == Projects
 
@@ -222,7 +224,6 @@ of the technology stack.
 - Implemented features such as interventionless atomic app updates, a live-updating configuration system, and encrypted activity logs.
 - Tech Stack: #emph("Python, Subprocess, Multi-threading, Pascal (Delphi), OpenCV, Powershell, Win32 APIs")
 
-
 #generic-one-by-two(
   left: link("https://github.com/swarnimcodes/Sequel")[#strong(
       "MS-SQL Suite of Tools",
@@ -237,7 +238,11 @@ of the technology stack.
 
 #generic-one-by-two(
   left: link("https://github.com/swarnimcodes/kafkaesqueue")[#strong(
-      "Kafkaesqueue" + " " + $dash.em$ + " " + "Persistent Queue Management System",
+      "Kafkaesqueue"
+        + " "
+        + $dash.em$
+        + " "
+        + "Persistent Queue Management System",
     )],
   right: dates-helper(start-date: "Oct, 2023", end-date: "June, 2024"),
 )
@@ -248,8 +253,8 @@ of the technology stack.
 
 #generic-one-by-two(
   left: link("https://github.com/swarnimcodes/openai-gen-co-and-qp")[#strong(
-    "OpenAI Question Paper & Course Outcome Generator",
-  )],
+      "OpenAI Question Paper & Course Outcome Generator",
+    )],
   right: dates-helper(start-date: "Apr, 2023", end-date: "May, 2024"),
 )
 - Developed an AI-powered tool that automatically generates comprehensive course outcomes from course handouts and syllabi.
