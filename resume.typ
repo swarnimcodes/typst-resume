@@ -103,15 +103,22 @@ of the technology stack.
   for AI-powered naval autonomous collision avoidance systems,
   handling real-time radar, camera & sensor data stream
   processing for 10+ vessels.
+- Led full-stack development for #strong(link("https://www.instagram.com/bluegulfcat/")[BlueGulf])
+  x AccurateIC international collaboration,
+  adapting autonomous navigation systems for high-speed vessels (80+ mph);
+  successfully showcased at #strong(link("https://event.driftx.abudhabi/event/7a497dea-1939-4ec9-8a9e-2bed21873f34/Home")[DriftX Abu Dhabi Autonomous Expo]) at Yas Marina. 
 - Architected, developed and led the development of building
   a platform for IOT-enabled systems (especially engines), smoothening
   the behavioural analysis of such systems,
   predicting failures and optimizing the systems
   for longevity using Artificial Intelligence.
-- Drove technical decision-making and architecture planning towards making the software efficient, robust & maintainable.
+- Drove technical decision-making and architecture planning
+  towards making the software efficient, robust & maintainable.
 - Identified performance bottlenecks & carried out code optimization.
-- Mentored & trained junior developers and conducted code reviews of pull requests to maintain quality and correctness.
-- Implemented standard development practices to bring in uniformity and long term maintainability of projects.
+- Mentored & trained junior developers and conducted code reviews of
+  pull requests to maintain quality and correctness.
+- Implemented standard development practices to bring in uniformity
+  and long term maintainability of projects.
 
 
 // 2. mastersoft erp
@@ -175,7 +182,7 @@ of the technology stack.
 == Projects
 
 #generic-one-by-two(
-  left: link("https://github.com/AccurateIC/IsacaFrontend/")[#strong(
+  left: link("https://github.com/AccurateIC/isaca-web/")[#strong(
       "ISACA"
         + " "
         + $dash.em$
@@ -184,12 +191,26 @@ of the technology stack.
     )],
   right: dates-helper(start-date: "Oct, 2024", end-date: "Present"),
 )
-- Co-developed the ISACA application that runs the autonomous ship developed for the Indian Navy.
-- The application includes features such as: radar overlay, obstacle & future trajectory visualization, planning routes on the world map, controlling sensor functionality (gps, radar, camera, etc), viewing camera feeds.
-- Achieved 40% reduction in CPU consumption by refactoring inefficiencies.
-- Proposed and implemented synchronized communication solution
-  between the Ship and the Control Base.
-- Developed using a tried and tested tech stack of #emph("ExpressJS, ReactJS, Tailwind, Vite and PostgreSQL").
+- Architected and developed full-stack monorepo application
+  (React, AdonisJS MVC, PostgreSQL) for autonomous vessel control,
+  integrating ROS middleware via custom pub-sub data transport
+  with real-time multi-sensor data fusion
+  (Radar, GPS, Dual Cameras, eMRU, Odometry)
+  for naval collision avoidance across 25+ ROS topics.
+- Implemented radar overlay with obstacle trajectory prediction and MARPA tracking.
+- Built route planning system with dynamic waypoint management,
+  geodistance calculations, and voyage tracking across 12 feature modules
+  (Radar, AIS, Battery, Engine, Routes, Sensors, etc.).
+- Developed script execution system with real-time
+  WebSocket monitoring and broadcasting.
+- Implemented type-safe validation using VineJS
+  across 11 RESTful controllers and 10 database migrations.
+- Set up automated CI/CD pipeline with Jenkins for continuous deployment,
+  including automated database migrations, seeding, and systemd service orchestration.
+- Achieved 40% CPU reduction through performance profiling and code optimization.
+- Designed bidirectional WebSocket architecture for shore-to-ship control synchronization.
+- Contributed 97% of codebase (~12K lines across 171 files).
+- Tech Stack: #emph("React, Redux, AdonisJS, Express JS, Lucid ORM, VineJS, PostgreSQL, Socket.io, ROS, WebRTC, Jenkins").
 
 
 
