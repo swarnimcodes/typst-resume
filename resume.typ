@@ -92,11 +92,23 @@ of the technology stack.
 
 == Professional Experience
 
+// 0. accurate ic
+#generic-two-by-two(
+  top-left: strong("Coditation Systems (Plant360.ai)"),
+  top-right: "Pune, Maharashtra",
+  bottom-right: dates-helper(start-date: "Feb, 2026", end-date: "Present"),
+  bottom-left: emph("FullStack Software Engineer"),
+)
+- Contributed to the Plant360.ai platform backend (Python/Django), developing and extending production API services.
+- Reverse-engineered an undocumented third-party CAD SDK to programmatically extract complex drawing data into a canonical JSON data model, shipping the converter as both a CLI and a REST API.
+- Designed and built bidirectional data-conversion pipelines around that canonical model, integrating multiple proprietary CAD formats with the DEXPI (ISO 15926) industry exchange standard and validating all generated output against the official Proteus 4.1.1 schema for correctness.
+- Built a custom symbol-conversion tool that automated a previously manual drafting workflow across 90+ symbol definitions, cutting ~2 hours/day of repetitive effort down to a verification step.
+
 // 1. accurate ic
 #generic-two-by-two(
   top-left: strong("AccurateIC"),
   top-right: "Pune, Maharashtra",
-  bottom-right: dates-helper(start-date: "Aug, 2024", end-date: "Present"),
+  bottom-right: dates-helper(start-date: "Aug, 2024", end-date: "Feb, 2026"),
   bottom-left: emph("FullStack Software Engineer, AI Department"),
 )
 - Developed full-stack application
