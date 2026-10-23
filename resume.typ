@@ -150,7 +150,7 @@ desktop and systems projects.
 )
 - Developed Panopticon, a multi-tenant employee productivity
   measurement system serving 700+ concurrent users, eliminating
-  DeskTime dependency and saving Rs 53 Lakhs annually.
+  DeskTime dependency and saving ₹53 lakh annually.
 - Implemented Panopticon features including atomic app updates,
   live configuration sync, encrypted activity logs, and accurate
   productivity metrics for remote talent evaluation.
@@ -183,19 +183,19 @@ desktop and systems projects.
   Rust,
   SQL,
   Bash,
-  Powershell
+  PowerShell
 - #strong("Frontend"):
   React,
   Zustand,
   Redux,
-  Tanstack Query,
+  TanStack Query,
   HTML, CSS,
   TailwindCSS,
   Tauri
 - #strong("Backend"):
   AdonisJS MVC,
-  ExpressJS,
-  NodeJS,
+  Express.js,
+  Node.js,
   OAuth,
   RabbitMQ,
   Lucid ORM,
@@ -219,7 +219,7 @@ desktop and systems projects.
   PostgreSQL,
   SQLite,
   Microsoft SQL Server,
-  MongoDB,
+  MongoDB
 - #strong("Cloud/DevOps"):
   AWS EC2,
   Docker,
@@ -252,7 +252,7 @@ desktop and systems projects.
   left: link("https://github.com/swarnimcodes/spotagooey")[#strong(
     "Spotagooey" + " " + $dash.em$ + " " + "Desktop Spotify Client",
   )],
-  right: dates-helper(start-date: "Aug, 2026", end-date: "Aug, 2026"),
+  right: "Aug, 2026",
 )
 - Desktop Spotify client with native playback through librespot, Spotify
   Connect control, synced lyrics, and a command palette.
@@ -280,5 +280,5 @@ desktop and systems projects.
 - Tech Stack: #emph("Python, FastAPI, Pydantic")
 
 
-== #text(fill: H2COLOR)[Extra Curriculars]
-#strong("Swimming"): National Swimmer. Multiple times State Gold Medalist.
+== #text(fill: H2COLOR)[Extracurriculars]
+#strong("Swimming"): National Swimmer. Multiple-time State Gold Medalist.
