@@ -78,23 +78,10 @@
 
 == #text(fill: H2COLOR)[#text(fill: H2COLOR)[Professional Summary]]
 
-Full-Stack Software Engineer focused on backend-heavy product engineering,
-database-backed systems, and industrial software platforms. Experienced in
-building production APIs, data pipelines, graph-based workflows, CAD
-adapters, AI agents, and full-stack applications across
-TypeScript, Python, Node.js, and Go ecosystems. Strong bias toward
-maintainable architecture, performance-aware design, reliable data
-modeling, and practical automation.
-
-== #text(fill: H2COLOR)[Education]
-#generic-two-by-two(
-  top-left: strong("BITS Pilani"),
-  top-right: "Vasco da Gama, Goa",
-  bottom-right: dates-helper(start-date: "May, 2019", end-date: "July, 2024"),
-  bottom-left: emph(
-    "B.E. Chemical Engineering + M.Sc. Biological Sciences",
-  ),
-)
+Software engineer with two years of experience building backend services,
+full-stack applications, and LLM-based agents for industrial and
+autonomous-systems software. Works mainly in TypeScript/JavaScript, Python, and Go, and uses Rust for
+desktop and systems projects.
 
 
 == #text(fill: H2COLOR)[#text(fill: H2COLOR)[Professional Experience]]
@@ -104,38 +91,29 @@ modeling, and practical automation.
   top-left: strong("Coditation Systems (Plant360.ai)"),
   top-right: "Pune, Maharashtra",
   bottom-right: dates-helper(start-date: "Feb, 2026", end-date: "Present"),
-  bottom-left: emph("FullStack Software Engineer"),
+  bottom-left: emph("AI Full-Stack Software Engineer"),
 )
-- Built an AI agent that generates equipment-isolation plans for
-  real-world process scenarios in Plant360.
-- Designed the agent around a self-orchestrating tool-calling loop,
-  deterministic graph traversal modules, validation gates, evidence
-  recovery through targeted follow-up calls, and auditable execution
-  traces.
-- Contributed to the Plant360.ai platform backend, developing
-  production API services for industrial P&ID conversion and
-  engineering-data workflows.
-- Reverse-engineered SmartPlant™ P&ID automation APIs to build the
-  SPPID-to-Plant360 adapter, extracting proprietary `.pid` drawings
-  into Plant360's custom graph format through a REST API.
-- Built dexpi-service as the next stage of the SmartPlant™ P&ID to
-  DEXPI pipeline, converting Plant360 graph JSON into validated DEXPI
-  output through async job processing, persisted job state, result
-  retrieval APIs, bearer-token auth, and Docker deployment.
-- Developed an AutoCAD adapter that renders Plant360
-  custom graph data into DWG drawings using reusable symbol catalogs,
-  batch conversion scripts, and generated equipment, line, valve,
-  instrument, tag, and annotation geometry.
-- Built a custom symbol-conversion tool that automated a previously
-  manual drafting workflow across 90+ symbol definitions, cutting
-  ~2 hours/day of repetitive effort down to a verification step.
+- Built an AI agent that generates safe-shutdown and maintenance
+  plans for industrial equipment from Plant360 graphs. Validation gates
+  and audit trails let engineers review and trust every plan.
+- Built and deployed production backend API around the agent using
+  FastAPI, PostgreSQL, background workers,
+  streaming updates over SSE, and audit logs.
+- Built conversion services that extract proprietary P&ID drawings into
+  the Plant360 graph format (reverse-engineering SmartPlant's API) and
+  export them to DEXPI XML and AutoCAD DWG via async REST APIs.
+- Built a library in React and TypeScript that renders Plant360 graphs as
+  interactive P&ID diagrams, now used across the organization's products.
+- Built a cross-platform desktop app in Rust and Tauri that validates and
+  renders DEXPI engineering-diagram files against the schema and the
+  official spec.
 
 // 1. accurate ic
 #generic-two-by-two(
   top-left: strong("AccurateIC"),
   top-right: "Pune, Maharashtra",
   bottom-right: dates-helper(start-date: "Aug, 2024", end-date: "Feb, 2026"),
-  bottom-left: emph("FullStack Software Engineer, AI Department"),
+  bottom-left: emph("Full-Stack Software Engineer, AI Department"),
 )
 
 - Architected and developed ISACA, a full-stack monorepo for
@@ -154,7 +132,8 @@ modeling, and practical automation.
   high-speed vessels and showcasing the platform at DriftX
   Abu Dhabi Autonomous Expo at Yas Marina.
 - Architected and developed NeuroGen, an IoT-enabled genset
-  monitoring platform with predictive maintenance,
+  monitoring platform (Go/Chi backend, React frontend) with predictive
+  maintenance,
   multi-variate anomaly detection, life expectancy simulations,
   and operational data visualizations.
 - Drove architecture, code reviews, junior developer mentoring,
@@ -185,24 +164,34 @@ modeling, and practical automation.
   proactive monitoring solutions, and resolved production incidents
   to ensure system uptime and reliability.
 
+== #text(fill: H2COLOR)[Education]
+#generic-two-by-two(
+  top-left: strong("BITS Pilani"),
+  top-right: "Vasco da Gama, Goa",
+  bottom-right: dates-helper(start-date: "May, 2019", end-date: "July, 2024"),
+  bottom-left: emph(
+    "B.E. Chemical Engineering + M.Sc. Biological Sciences",
+  ),
+)
+
 == #text(fill: H2COLOR)[Skills]
 - #strong("Languages"):
   TypeScript,
   JavaScript,
   Python,
   Go,
-  C\#,
+  Rust,
   SQL,
   Bash,
-  Powershell,
-  Pascal
+  Powershell
 - #strong("Frontend"):
   React,
   Zustand,
   Redux,
   Tanstack Query,
   HTML, CSS,
-  TailwindCSS
+  TailwindCSS,
+  Tauri
 - #strong("Backend"):
   AdonisJS MVC,
   ExpressJS,
@@ -210,18 +199,27 @@ modeling, and practical automation.
   OAuth,
   RabbitMQ,
   Lucid ORM,
+  Chi,
+  SQLAlchemy,
+  Celery,
   Flask,
   FastAPI,
   Django,
-  Fiber,
   WebSockets,
-  Server-Sent Events,
+  Server-Sent Events
+- #strong("AI/ML"):
+  AI Agents,
   Tool Calling,
+  Agentic Loops,
+  Anthropic API,
+  OpenAI API,
+  Gemini API,
+  Self-Hosted LLMs
 - #strong("Databases"):
   PostgreSQL,
   SQLite,
   Microsoft SQL Server,
-  MongoDB
+  MongoDB,
 - #strong("Cloud/DevOps"):
   AWS EC2,
   Docker,
@@ -233,45 +231,38 @@ modeling, and practical automation.
   Linux
 - #strong("Other"):
   ROS,
-  Emacs,
-  Vim,
-  LaTeX,
-  Typst
+  Emacs Lisp
 
 == #text(fill: H2COLOR)[Personal Projects]
-
-
-#generic-one-by-two(
-  left: link("https://github.com/swarnimcodes/c3fm")[#strong(
-    "c3fm" + " " + $dash.em$ + " " + "Terminal file manager in C3 Lang",
-  )],
-  right: dates-helper(start-date: "June, 2026", end-date: "present"),
-)
-- Terminal based file manager. Navigation using vim-like keys.
-- Building from scratch without external libraries.
-- Built using a low-level systems programming language with manual memory management using arenas.
-- Tech Stack: #emph("C3: https://c3-lang.org/")
 
 #generic-one-by-two(
   left: link("https://github.com/swarnimcodes/fero")[#strong(
     "Fero" + " " + $dash.em$ + " " + "Continuation of the RQuickShare Project",
   )],
-  right: dates-helper(start-date: "May, 2026", end-date: "present"),
+  right: dates-helper(start-date: "May, 2026", end-date: "June, 2026"),
 )
-- Took up the continuation of an open-source project
-  which was abandoned since 2 years
-  used by thousands of people in the foss community.
-- Implemented novel features leveraging the quickshare
-  technology in-built in android devices for information transfer
-  with minimal latency.
-- Tech Stack: #emph("Rust, Tauri, QuickShare, React, TypeScript, GitHub Actions")
+- Forked and continued RQuickShare, an open-source Quick Share client for
+  Linux and macOS that had been unmaintained for two years.
+- Migrated the frontend from Vue to React + Tailwind, and added clipboard
+  text and image sharing over the Quick Share protocol.
+- Modernized the CI and release pipeline on GitHub Actions.
+- Tech Stack: #emph("Rust, Tauri, React, TypeScript, GitHub Actions")
 
+#generic-one-by-two(
+  left: link("https://github.com/swarnimcodes/spotagooey")[#strong(
+    "Spotagooey" + " " + $dash.em$ + " " + "Desktop Spotify Client",
+  )],
+  right: dates-helper(start-date: "Aug, 2026", end-date: "Aug, 2026"),
+)
+- Desktop Spotify client with native playback through librespot, Spotify
+  Connect control, synced lyrics, and a command palette.
+- Tech Stack: #emph("Rust, Tauri, React, TypeScript")
 
 #generic-one-by-two(
   left: link("https://github.com/swarnimcodes/turepo")[#strong(
     "Turepo" + " " + $dash.em$ + " " + "Package for Emacs",
   )],
-  right: dates-helper(start-date: "Dec, 2025", end-date: "present"),
+  right: dates-helper(start-date: "Dec, 2025", end-date: "Present"),
 )
 - Built a developer productivity package for the GNU Emacs text editor.
 - Passed MELPA's code & quality standards. Package merged in MELPA.
@@ -283,10 +274,10 @@ modeling, and practical automation.
   )],
   right: dates-helper(start-date: "Oct, 2023", end-date: "June, 2024"),
 )
-- Lightweight queue mangement system. FIFO Guarantees.
-- Opt-in parallel processing of tasks using threads. Cuts down processing time by \${nproc}.
+- Lightweight queue management system with FIFO guarantees.
+- Opt-in parallel task processing using threads.
 - Built-in persistence via SQLite or in-memory storage.
-- Tech Stack: #emph("Python, FastAPI, Pydantic").
+- Tech Stack: #emph("Python, FastAPI, Pydantic")
 
 
 == #text(fill: H2COLOR)[Extra Curriculars]
