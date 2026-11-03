@@ -236,6 +236,19 @@ desktop and systems projects.
 == #text(fill: H2COLOR)[Personal Projects]
 
 #generic-one-by-two(
+  left: link("https://github.com/swarnimcodes/metamorph")[#strong(
+    "Metamorph" + " " + $dash.em$ + " " + "Workout Tracking App",
+  )],
+  right: dates-helper(start-date: "Oct, 2026", end-date: "Present"),
+)
+- Built and deployed a full-stack workout tracker as a web and Android app,
+  with Google sign-in, account deletion, and per-workout time zones.
+  Live at #link("https://metamorph.smarniw.com")[metamorph.smarniw.com].
+- Rust API (Axum, SQLx) on PostgreSQL with migrations and integration tests;
+  CI on GitHub Actions with gated deploys and rollback.
+- Tech Stack: #emph("Rust, Axum, PostgreSQL, React, TypeScript, Tauri")
+
+#generic-one-by-two(
   left: link("https://github.com/swarnimcodes/fero")[#strong(
     "Fero" + " " + $dash.em$ + " " + "Continuation of the RQuickShare Project",
   )],
